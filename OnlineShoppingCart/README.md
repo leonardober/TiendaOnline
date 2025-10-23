@@ -275,3 +275,14 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 PS F:\CarritoComprasOnline\carritocompras> 
 
+
+resumen
+git branch feature-login
+git switch feature-login
+# (haz tus cambios)
+git add .
+git commit -m "Nueva funcionalidad login"
+git switch main
+git merge feature-login
+git branch -d feature-login
+git push origin main
