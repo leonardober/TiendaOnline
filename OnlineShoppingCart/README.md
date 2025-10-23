@@ -218,3 +218,60 @@ pagarClicked()	Envía los datos al backend
 ocultarCarrito()	Oculta el carrito si está vacío
 
 
+Reinitialized existing Git repository in F:/CarritoComprasOnline/carritocompras/.git/
+PS F:\CarritoComprasOnline\carritocompras> git add .
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+PS F:\CarritoComprasOnline\carritocompras> git remote add origin https://github.com/leonardober/onlineCarro.git
+error: remote origin already exists.
+PS F:\CarritoComprasOnline\carritocompras> git branch -M main
+>> git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+PS F:\CarritoComprasOnline\carritocompras> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS F:\CarritoComprasOnline\carritocompras> git branch
+>>
+* main
+PS F:\CarritoComprasOnline\carritocompras> git branch nombre-de-la-rama
+>>                                         git checkout nombre-de-la-rama
+>> F:\CarritoComprasOnline\carritocompras> git add .
+>> git commit -m "Agrego nueva funcionalidad de login"
+>> F:\CarritoComprasOnline\carritocompras>
+warning: in the working copy of 'OnlineShoppingCart/index.html', LF will be replaced by CRLF the next time Git touches it
+[nombre-de-la-rama c5c8d41] Agrego nueva funcionalidad de login
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS F:\CarritoComprasOnline\carritocompras> git add .
+>> git commit -m "Agrego ingles"
+On branch nombre-de-la-rama
+nothing to commit, working tree clean
+PS F:\CarritoComprasOnline\carritocompras> git checkout main
+>>
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS F:\CarritoComprasOnline\carritocompras> git merge nombre-de-la-rama
+>>
+Updating 963c19b..c5c8d41
+Fast-forward
+ OnlineShoppingCart/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletiongit push origin main
+>> F:\CarritoComprasOnline\carritocompras>
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 360 bytes | 360.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/leonardober/TiendaOnline.git
+   963c19b..c5c8d41  main -> main
+PS F:\CarritoComprasOnline\carritocompras> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS F:\CarritoComprasOnline\carritocompras> 
+
